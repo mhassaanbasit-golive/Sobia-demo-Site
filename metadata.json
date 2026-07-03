@@ -1,0 +1,6 @@
+{
+  "name": "Tire Retail E-Commerce",
+  "description": "A high-performance, mobile-first tire retail e-commerce platform with 360-degree interactive tire visualizers, advanced filtering, and a seamless multi-step checkout with installer locator.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
