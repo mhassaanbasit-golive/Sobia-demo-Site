@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { ArrowRight, Star, ShieldCheck, HelpCircle, Sparkles, Check, ChevronRight, PenTool, Flame, Snowflake, TreePine, Zap, CreditCard, TrendingUp, RefreshCw, Truck, Search, MapPin, Wrench } from 'lucide-react';
 import { Tire, SavedVehicle } from '../types';
 import { TIRES, CAR_DATABASE, REBATES } from '../data';
+import tireRuggedAllTerrain from '../assets/images/tire_rugged_allterrain_1782936558500.jpg';
 
 interface HomeViewProps {
   setPage: (p: string) => void;
@@ -428,7 +429,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             {/* High-quality local floating tire overlapping the side of the vehicle image */}
             <div className="absolute -bottom-6 -left-4 sm:left-2 md:-left-8 w-24 sm:w-28 md:w-36 h-24 sm:h-28 md:h-36 pointer-events-none z-20">
               <img 
-                src="/src/assets/images/tire_rugged_allterrain_1782936558500.jpg" 
+                src={tireRuggedAllTerrain} 
                 alt="Rugged Tire Detail" 
                 className="w-full h-full object-cover rounded-full border-4 border-white shadow-2xl bg-white" 
               />

@@ -1,4 +1,8 @@
 import { Tire, Installer, Rebate, Article } from './types';
+import tireHeroBanner from './assets/images/tire_hero_banner_1782936542062.jpg';
+import tireRuggedAllTerrain from './assets/images/tire_rugged_allterrain_1782936558500.jpg';
+import tireWinterSnow from './assets/images/tire_winter_snow_1782936574990.jpg';
+import installerServiceBay from './assets/images/installer_service_bay_1782936595149.jpg';
 
 export const TIRES: Tire[] = [
   {
@@ -7,8 +11,8 @@ export const TIRES: Tire[] = [
     brandLogo: '⚡',
     name: 'Velocita Sport A/S 4',
     type: 'Performance',
-    image1: '/src/assets/images/tire_hero_banner_1782936542062.jpg',
-    image2: '/src/assets/images/tire_hero_banner_1782936542062.jpg',
+    image1: tireHeroBanner,
+    image2: tireHeroBanner,
     rating: 4.8,
     reviewsCount: 1420,
     price: 189,
@@ -39,8 +43,8 @@ export const TIRES: Tire[] = [
     brandLogo: '⛰️',
     name: 'RidgeRider X/T Heavy Duty',
     type: 'All-Terrain',
-    image1: '/src/assets/images/tire_rugged_allterrain_1782936558500.jpg',
-    image2: '/src/assets/images/tire_rugged_allterrain_1782936558500.jpg',
+    image1: tireRuggedAllTerrain,
+    image2: tireRuggedAllTerrain,
     rating: 4.7,
     reviewsCount: 840,
     price: 249,
@@ -72,8 +76,8 @@ export const TIRES: Tire[] = [
     brandLogo: '❄️',
     name: 'BlizzardGrip Extreme Studless',
     type: 'Winter',
-    image1: '/src/assets/images/tire_winter_snow_1782936574990.jpg',
-    image2: '/src/assets/images/tire_winter_snow_1782936574990.jpg',
+    image1: tireWinterSnow,
+    image2: tireWinterSnow,
     rating: 4.9,
     reviewsCount: 310,
     price: 165,
@@ -105,8 +109,8 @@ export const TIRES: Tire[] = [
     brandLogo: '🌱',
     name: 'EcoGlide Premium Tour',
     type: 'Touring',
-    image1: '/src/assets/images/tire_hero_banner_1782936542062.jpg',
-    image2: '/src/assets/images/tire_hero_banner_1782936542062.jpg',
+    image1: tireHeroBanner,
+    image2: tireHeroBanner,
     rating: 4.6,
     reviewsCount: 950,
     price: 135,
@@ -136,8 +140,8 @@ export const TIRES: Tire[] = [
     brandLogo: '⚡',
     name: 'Pista Corsa P-1 Cup',
     type: 'Summer',
-    image1: '/src/assets/images/tire_hero_banner_1782936542062.jpg',
-    image2: '/src/assets/images/tire_hero_banner_1782936542062.jpg',
+    image1: tireHeroBanner,
+    image2: tireHeroBanner,
     rating: 4.9,
     reviewsCount: 180,
     price: 295,
@@ -167,8 +171,8 @@ export const TIRES: Tire[] = [
     brandLogo: '🚚',
     name: 'CargoMax HD commercial',
     type: 'Commercial',
-    image1: '/src/assets/images/tire_rugged_allterrain_1782936558500.jpg',
-    image2: '/src/assets/images/tire_rugged_allterrain_1782936558500.jpg',
+    image1: tireRuggedAllTerrain,
+    image2: tireRuggedAllTerrain,
     rating: 4.5,
     reviewsCount: 220,
     price: 179,
@@ -198,8 +202,8 @@ export const TIRES: Tire[] = [
     brandLogo: '🌱',
     name: 'EnduraTour Comfort Plus',
     type: 'Touring',
-    image1: '/src/assets/images/tire_hero_banner_1782936542062.jpg',
-    image2: '/src/assets/images/tire_hero_banner_1782936542062.jpg',
+    image1: tireHeroBanner,
+    image2: tireHeroBanner,
     rating: 4.7,
     reviewsCount: 520,
     price: 145,
@@ -315,7 +319,7 @@ export const ARTICLES: Article[] = [
     category: 'Tire Education',
     readTime: '4 min read',
     date: 'Jun 24, 2026',
-    image: '/src/assets/images/tire_hero_banner_1782936542062.jpg'
+    image: tireHeroBanner
   },
   {
     id: 'guide-winter',
@@ -324,7 +328,7 @@ export const ARTICLES: Article[] = [
     category: 'Safety & Seasons',
     readTime: '6 min read',
     date: 'May 12, 2026',
-    image: '/src/assets/images/tire_winter_snow_1782936574990.jpg'
+    image: tireWinterSnow
   },
   {
     id: 'guide-maintenance',
@@ -333,7 +337,7 @@ export const ARTICLES: Article[] = [
     category: 'Car Maintenance',
     readTime: '5 min read',
     date: 'Apr 05, 2026',
-    image: '/src/assets/images/installer_service_bay_1782936595149.jpg'
+    image: installerServiceBay
   }
 ];
 
